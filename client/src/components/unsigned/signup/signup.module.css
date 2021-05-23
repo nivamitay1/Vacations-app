@@ -1,0 +1,24 @@
+.wraper {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  margin-top: 7%;
+}
+#submit {
+  margin: 7% 0 5%;
+}
+.change {
+  text-decoration: none;
+  color: blue;
+}
+#loader {
+  z-index: 1;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 70vw;
+  }
+}

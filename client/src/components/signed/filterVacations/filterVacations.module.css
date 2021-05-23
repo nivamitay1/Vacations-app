@@ -1,0 +1,11 @@
+#filterWraper {
+  margin-top: 8%;
+}
+@media screen and (max-width: 600px) {
+  #filterWraper {
+    display: block !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18%;
+  }
+}

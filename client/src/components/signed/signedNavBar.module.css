@@ -1,0 +1,43 @@
+/* #navBar {
+  max-height: 15%;
+  min-height: 15%;
+} */
+.navlink {
+  color: white;
+  margin-left: 3%;
+}
+.logoDiv {
+  margin-left: 30%;
+  /* min-width: 10vw; */
+}
+.logoImg {
+  height: 60px;
+}
+#logout {
+  color: rgb(207, 46, 46);
+}
+@media screen and (max-width: 600px) {
+  .logoImg {
+    height: 50px;
+    width: 120px;
+    /* min-width: 10vw; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .logoImg {
+    height: 40px;
+    width: 100px;
+    /* min-width: 10vw; */
+  }
+}
+@media screen and (max-width: 290px) {
+  .logoDiv {
+    margin-left: 15%;
+    /* min-width: 10vw; */
+  }
+  .logoImg {
+    height: 40px;
+    width: 100px;
+    /* min-width: 10vw; */
+  }
+}

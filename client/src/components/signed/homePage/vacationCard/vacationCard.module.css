@@ -1,0 +1,19 @@
+.card {
+  min-width: 20vw;
+  margin-top: 3%;
+}
+.cardImg {
+  height: 140px;
+}
+@media screen and (min-width: 1600px) {
+  .card {
+    min-width: 16.5vw;
+    margin-top: 3%;
+  }
+}
+@media screen and (min-width: 2500px) {
+  .card {
+    min-width: 13vw;
+    margin-top: 3%;
+  }
+}
